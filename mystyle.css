@@ -1,0 +1,42 @@
+@font-face 
+{
+    font-family: "Progressiv";
+    src="Font/Progressiv-Regular.otf";
+}
+
+body,h1,h2 {font-family:"Progressiv", sans-serif}
+body {background-color: coral}
+img {margin-bottom: -7px}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+.grid 
+{
+  max-width: 1530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-item {
+      float: left;
+      width: 375px;
+      height: 250px;
+      background: #C09; 
+      border: 0px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.grid-item--width2 { width: 760px; }
+.grid-item--height2 { height: 510px; }
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+footer {
+  background-color: coral;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
