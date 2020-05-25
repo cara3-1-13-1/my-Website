@@ -1,32 +1,67 @@
-@font-face 
-{
+@font-face {
     font-family: "Progressiv";
     src="Font/Progressiv-Regular.otf";
 }
 
-body,h1,h2 {font-family:"Progressiv", sans-serif}
+body,h1,h2,h3 {font-family:"Progressiv", sans-serif}
 body {background-color: coral}
 img {margin-bottom: -7px}
 
+header{
+    opacity: 1;
+}
+
+.content{
+    max-width: 1530px;
+    margin: auto;
+}
 .w3-row-padding img {margin-bottom: 12px}
 
-.grid 
-{
+.grid {
   max-width: 1530px;
   margin-left: auto;
   margin-right: auto;
-}
+} 
 
 .grid-item {
       float: left;
       width: 375px;
       height: 250px;
-      background: #C09; 
+      background: coral; 
       border: 0px solid hsla(0, 0%, 0%, 0.5);
 }
 
 .grid-item--width2 { width: 760px; }
 .grid-item--height2 { height: 510px; }
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  backface-visibility: hidden;
+}
+
+.mouseover {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.grid-item:hover .image {
+  opacity: 0.5;
+}
+
+.grid-item:hover .mouseover {
+  opacity: 1;
+}
 
 .center {
     margin: auto;
@@ -34,7 +69,6 @@ img {margin-bottom: -7px}
 }
 
 footer {
-  background-color: coral;
   padding: 10px;
   text-align: center;
   color: white;
