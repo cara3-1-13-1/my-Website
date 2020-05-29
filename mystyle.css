@@ -63,6 +63,10 @@ header{
   opacity: 1;
 }
 
+.text {
+    float: right;
+}
+
 .center {
     margin: auto;
     width: 50%;
