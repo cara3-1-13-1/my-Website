@@ -11,67 +11,59 @@
     
    
     
-<body>
-     <div class="w3-content w3-opacity" style="max-width:1500px">
-        <header>
-            <div class="w3-bar">
-              <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white"><h1><b>CARA KOLLMANN</b></h1></a>
-              <a href="Kontakt.html" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white"><h1><b>KONTAKT</b></h1></a>
-              <a href="About.html" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white"><h1><b>ABOUT</b></h1></a>
-            </div>
-        </header> 
-     </div>
-        <!-- Packery -->
-        <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
-            <div class="grid">
+    <body style="background-color: cadetblue">
+    <div class="content">    
+        <?php include('header.php'); ?>
+        <div style="width:100vw; height:100px"></div>
+            <!-- Packery -->
+            <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
+                <div class="grid">
 
-                <div class="grid-item grid-item--width2">
-                      <img src="Material/2Roadtrip/IMG_5251.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <img src="Material/0Milla/Plakat%20A0%202-remastered2020.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item">
-                    <img src="Material/1Sternenkarte/Sternenkarte-7133.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--width2 grid-item--height2">
-                    <img src="Material/3Type-Inspiration/IMG_5073.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--width2 grid-item--height2">
-                    <img src="Material/5Coffea/Coffea-7241.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--width2">
-                    <img src="Material/4This-is-Europe/ThisIsEurope-7163.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--width2 grid-item--height2">
-                    <img src="Material/2PaperJam/20180720_KD-143.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <img src="Material/0LngeNchtDrMseenStgt/MercedesMuseum.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item">
-                    <img src="Material/0WennManNachts/IMG_5264.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item">
-                    <img src="Material/2Amnesty/IMG_5259.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <img src="Material/2Roadtrip/IMG_5247-2.jpg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item">
-                    <img src="Material/5Frau-Ada/FrauAda1.jpeg" style="width:100%; height:100%">
-                </div>
-                <div class="grid-item">
-                    <img src="Material/2Typo2/IMG_5287.jpg" style="width:100%; height:100%">
-                </div>
+                    <div class="grid-item grid-item--width2">
+                          <img src="Material/2Roadtrip/IMG_5251.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--height2">
+                        <img src="Material/0Milla/Plakat%20A0%202-remastered2020.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item">
+                        <img src="Material/1Sternenkarte/Sternenkarte-7133.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--width2 grid-item--height2">
+                        <img src="Material/3Type-Inspiration/IMG_5073.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--width2 grid-item--height2">
+                        <img src="Material/5Coffea/Coffea-7241.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--width2">
+                        <img src="Material/4This-is-Europe/ThisIsEurope-7163.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--width2 grid-item--height2">
+                        <img src="Material/2PaperJam/20180720_KD-143.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--height2">
+                        <img src="Material/0LngeNchtDrMseenStgt/MercedesMuseum.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item">
+                        <img src="Material/0WennManNachts/IMG_5264.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item">
+                        <img src="Material/2Amnesty/IMG_5259.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item grid-item--height2">
+                        <img src="Material/2Roadtrip/IMG_5247-2.jpg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item">
+                        <img src="Material/5Frau-Ada/FrauAda1.jpeg" style="width:100%; height:100%">
+                    </div>
+                    <div class="grid-item">
+                        <img src="Material/2Typo2/IMG_5287.jpg" style="width:100%; height:100%">
+                    </div>
 
-            </div>
-        </div> 
+                </div>
+            </div> 
 
-        <footer>
-            <p><b>Nice, that you made it to the end!</b></p>
-            <p><b>Now let's have a coffee.</b></p>
-        </footer>
-     </body>
+        <?php include('footer.php'); ?>
+        </div>
+    </body>
         
 </html>
