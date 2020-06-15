@@ -1,19 +1,30 @@
 @font-face {
     font-family: "Progressiv";
-    src="/Font/Progressiv-Regular.otf";
+    src: url(Font/Progressiv-Regular.otf);
+}
+
+@font-face {
+    font-family: "Coffea-Regular";
+    src: url(Font/Coffea-Regular.otf);
 }
 
 body,h1,h2,h3 {font-family:"Progressiv", sans-serif}
+h4 {
+  font-family:"Coffea-Regular", sans-serif;
+  font-size: 25px !important;
+  margin: -9px 0;
+  opacity: 0.7;
+}
 body {background-color: coral}
 img {margin-bottom: -7px}
 
 header{
-    opacity: 1;
+  opacity: 1;
 }
 
 .content{
-    max-width: 1530px;
-    margin: auto;
+  max-width: 1530px;
+  margin: auto;
 }
 .w3-row-padding img {margin-bottom: 12px}
 
@@ -24,16 +35,37 @@ header{
 } 
 
 .grid-item {
-      float: left;
-      width: 375px;
-      height: 250px;
-      background: none;
-      border: 0px solid hsla(0, 0%, 0%, 0.5);
+  float: left;
+  width: 375px;
+  height: 250px;
+  background: none;
+  border: 0px solid hsla(0, 0%, 0%, 0.5);
 }
 
 .grid-item--width2 { width: 760px; }
 .grid-item--height2 { height: 510px; }
+.grid-item--height4 { height: 1030px; }
 
+@media only screen and (max-width: 1000px) {
+.grid-item {
+  width: 485px;
+  height: 323px;
+}
+.grid-item--width2 { width: 980px; }
+.grid-item--height2 { height: 656px; }
+.grid-item--height4 { height: 1322px; }
+}
+/*
+@media only screen and (max-width: 1145px) {
+.grid-item {
+  width: 485px;
+  height: 323px;
+}
+.grid-item--width2 { width: 980px; }
+.grid-item--height2 { height: 656px; }
+.grid-item--height4 { height: 1322px; }
+}
+*/
 
 .centered {
   position: absolute;
@@ -42,7 +74,7 @@ header{
   transform: translate(-50%, -50%);
 }
 .background {
-    background: coral;
+  background: coral;
 }
 
 .image {
@@ -70,15 +102,10 @@ header{
   opacity: 1;
 }
 
-.text {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
 
 .center {
-    margin: auto;
-    width: 50%;
+  margin: auto;
+  width: 50%;
 }
 
 footer {
