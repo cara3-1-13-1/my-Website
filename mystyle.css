@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Progressiv";
-    src="Font/Progressiv-Regular.otf";
+    src="/Font/Progressiv-Regular.otf";
 }
 
 body,h1,h2,h3 {font-family:"Progressiv", sans-serif}
@@ -27,7 +27,7 @@ header{
       float: left;
       width: 375px;
       height: 250px;
-      background: coral; 
+      background: none;
       border: 0px solid hsla(0, 0%, 0%, 0.5);
 }
 
@@ -40,6 +40,9 @@ header{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.background {
+    background: coral;
 }
 
 .image {
@@ -55,16 +58,22 @@ header{
   text-align: center;
 }
 
-.grid-item:hover .image {
+.grid-item-hover:hover .image {
   opacity: 0.5;
 }
 
-.grid-item:hover .mouseover {
+.grid-item-hover:hover .mouseover {
+  opacity: 1;
+}
+
+.grid-item-hover:hover .background {
   opacity: 1;
 }
 
 .text {
-    float: right;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 .center {
