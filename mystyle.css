@@ -4,17 +4,18 @@
 }
 
 @font-face {
-    font-family: "Coffea-Regular";
-    src: url(Font/Coffea-Regular.otf);
+    font-family: "Verdana";
+    src: url(Font/VerdanaBold.ttf);
 }
 
 body,h1,h2,h3 {font-family:"Progressiv", sans-serif}
 h4 {
-  font-family:"Coffea-Regular", sans-serif;
+  font-family:"Verdana" !important, sans-serif;
   font-size: 25px !important;
   margin: -9px 0;
   opacity: 0.7;
 }
+
 body {background-color: coral}
 img {margin-bottom: -7px}
 
@@ -102,6 +103,9 @@ header{
   opacity: 1;
 }
 
+.title{
+    opacity: 0.7;
+}
 
 .center {
   margin: auto;
