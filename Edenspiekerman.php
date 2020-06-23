@@ -10,7 +10,7 @@
     </head>
     
     
-<body style="background-color: darkslategray">
+<body style="background-color: darksalmon">
 <div class="content">    
     <?php include('header.php'); ?>
     <div style="width:100vw; height:100px"></div>
@@ -18,13 +18,6 @@
         <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
             <div class="grid">
 
-                <div class="grid-item">
-                </div>
-                 <div class="grid-item grid-item--width2">
-                      <img src="Material/1Sternenkarte/Titel.png" style="width:100%; height:100%" class="image">
-                </div>
-                <div class="grid-item">
-                </div>
                 <div class="grid-item grid-item--width2 grid-item--height2">
                       <img src="Material/2Roadtrip/IMG_5251.jpg" style="width:100%; height:100%" class="image">
                 </div>
