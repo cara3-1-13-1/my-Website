@@ -9,9 +9,8 @@
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
     
-   
     
-<body style="background-color: pink">
+<body style="background-color: lightgreen">
 <div class="content">    
     <?php include('header.php'); ?>
     <div style="width:100vw; height:100px"></div>
@@ -19,56 +18,64 @@
         <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
             <div class="grid">
 
-                <div class="grid-item grid-item--width2 grid-item--height2">
-                      <img src="Material/2Roadtrip/IMG_5251.jpg" style="width:100%; height:100%" class="image">
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <div class="text">Diese Plakatserie entstand als Dokumentation einer Exkursionsreihe im zweiten Semester mit Juliane Hohlbaum und Anton Stuckardt. Wir besuchten Agenturen und Druckereien in Frankfurt, Straßburg, Karlsruhe und Stuttgart. 
-                    </div>
-                </div>    
                 <div class="grid-item">
-                    <img src="Material/1Sternenkarte/Sternenkarte-7133.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">STERNENKARTE</h3></div>
                 </div>
-                <div class="grid-item grid-item--width2 grid-item--height2">
-                    <img src="Material/3Type-Inspiration/IMG_5073.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">CACTACEAE</h3></div>
+                 <div class="grid-item grid-item--width2">
+                      <img src="Material/0OhneWorte/Titel.png" style="width:100%; height:100%" class="image">
                 </div>
-                <div class="grid-item grid-item--width2 grid-item--height2">
-                    <img src="Material/5Coffea/Coffea-7241.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">COFFEA</h3></div>
+                <div class="grid-item">
+                </div>
+                <div class="grid-item">
+                    <h4>Das Konzept für die fiktive Ausstellung „Ohne Worte“ entstand im Rahmen eines freiwilligen Praktikums im Sommer 2015 bei Milla und Partner in Stuttgart.</h4>
                 </div>
                 <div class="grid-item grid-item--width2">
-                    <img src="Material/4This-is-Europe/ThisIsEurope-7163.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">THIS IS EUROPE</h3></div>
+                      <img src="Material/0OhneWorte/Einladung.jpg" style="width:100%; height:100%" class="image">
                 </div>
                 <div class="grid-item grid-item--width2 grid-item--height2">
-                    <img src="Material/2PaperJam/20180720_KD-143.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">PAPER JAM</h3></div>
+                    <img src="Material/0OhneWorte/Grundrisse.jpg" style="width:100%; height:100%" class="image">
+                </div>
+                <div class="grid-item grid-item--width2">
+                    <h4>Die Aufgabe bestand aus dem Konzipieren einer Ausstellung auf einem Raum mit 7x7x7 m. Das Thema der Ausstellung war frei wählbar. Aus schon länger währendem Interesse heraus, entschied ich mich für eine Ausstellung, die Gebärdensprache vermittelt.</h4>
+                </div>  
+                 <div class="grid-item">
+                </div>
+                <div class="grid-item grid-item--width2 grid-item--height2">
+                    <img src="Material/0OhneWorte/Eingang.jpg" style="width:100%; height:100%" class="image">
                 </div>
                 <div class="grid-item grid-item--height2">
-                    <img src="Material/0LngeNchtDrMseenStgt/MercedesMuseum.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">LNGE NCHT DR MSEEN STGT</h3></div>
+                    <h4>In drei Bereichen werden die Besucherinnen und Besucher in die Welt der Gehörlosen eingeführt.</h4>
+                </div>
+                <div class="grid-item grid-item--width2">
+                    <img src="Material/0OhneWorte/Hobbies.jpg" style="width:100%; height:100%" class="image">
                 </div>
                 <div class="grid-item">
-                    <img src="Material/0WennManNachts/IMG_5264.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">WENN MAN NACHTS NIHCT SCHLAFEN KANN</h3></div>
                 </div>
                 <div class="grid-item">
-                    <img src="Material/2Amnesty/IMG_5259.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">RELIGIONSFREIHEIT</h3></div>
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <img src="Material/2Roadtrip/IMG_5247-2.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">ROADTRIP</h3></div>
+                    <h4>Lernen: im Erdgeschoss der Ausstellung werden in mehreren Stationen Sprachgesten erlernt, die Smalltalk mit Gehörlosen ermöglichen.</h4>
                 </div>
                 <div class="grid-item">
-                    <img src="Material/5Frau-Ada/FrauAda1.jpeg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">FRAU ADA DENKT UNERHÖRTES</h3></div>
+                    <h4>Eintauchen: im Treppenhaus kann ein Einblick in den Alltag von Gehörlosen durch Videomaterial gewonnen werden, das an die Wand des Treppenhauses projiziert wird.</h4>
+                </div>
+                <div class="grid-item grid-item--width2 grid-item--height2">
+                    <img src="Material/0OhneWorte/Treppenhaus.jpg" style="width:100%; height:100%" class="image">
                 </div>
                 <div class="grid-item">
-                    <img src="Material/2Typo2/IMG_5287.jpg" style="width:100%; height:100%" class="image">
-                    <div class="mouseover"><h3 class="centered">ESSAY PUNKT</h3></div>
+                </div>
+                <div class="grid-item">
+                </div>
+                <div class="grid-item">
+                </div>
+                <div class="grid-item grid-item--width2 grid-item--height2">
+                    <img src="Material/0OhneWorte/Cafe.jpg" style="width:100%; height:100%" class="image">
+                </div>
+                <div class="grid-item grid-item--width2">
+                    <h4>Interagieren: in dem im Obergeschoss befindlichen Café besteht die Möglichkeit das Gelernte gleich anzuwenden. Mit anderen Gästen und den gehörlosen Angestellten kann eine Unterhaltung geführt werden.</h4>
+                </div>
+                <div class="grid-item grid-item--height4 grid-item--width2">
+                    <img src="Material/0OhneWorte/Plakat.jpg" style="width:100%; height:100%" class="image">
+                </div>
+                <div class="grid-item">
+                    <h4>Als Abschluss des Projekts entstand ein DIN A0 Plakat, das das Konzept präsentiert.</h4>
                 </div>
 
             </div>
