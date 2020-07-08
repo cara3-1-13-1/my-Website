@@ -14,17 +14,14 @@
 <div class="content">    
     <?php include('header.php'); ?>
     <div style="width:100vw; height:100px"></div>
+    
+    <div style="height:30vh" class="w3-center">
+          <img src="Material/2Roadtrip/Titel.png" style="height:30vh">
+    </div>
+    <div style="width:100vw; height:100px"></div>
         <!-- Packery -->
         <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
             <div class="grid">
-
-                <div class="grid-item">
-                </div>
-                 <div class="grid-item grid-item--width2">
-                      <img src="Material/2Roadtrip/Titel.png" style="width:100%; height:100%" class="image">
-                </div>
-                <div class="grid-item">
-                </div>
                 <div class="grid-item grid-item--width2 grid-item--height2">
                       <img src="Material/2Roadtrip/IMG_5251.jpg" style="width:100%; height:100%" class="image">
                 </div>
@@ -52,9 +49,7 @@
                 <div class="grid-item grid-item--height2">
                     <img src="Material/2Roadtrip/Panorama.jpg" style="width:100%; height:100%" class="image">
                 </div>
-                <div class="grid-item">
-                </div>
-                <div class="grid-item">
+                <div class="grid-item grid-item--width2">
                     <h4>Überlagert wird diese Ebene durch an Zeitungen angelehnte Spalten, in denen sich kurze Berichtstexte und einige vor Ort aufgenommene Fotos befinden.</h4>
                 </div>
                 <div class="grid-item">
@@ -80,7 +75,41 @@
                 <div class="grid-item grid-item--height2">
                     <img src="Material/2Roadtrip/Very-Very.jpg" style="width:100%; height:100%" class="image">
                 </div>
-
+                <div class="grid-item grid-item--width2 grid-item--height2">
+                    <h4><b>Technische Daten</b></h4>
+                    <table style="width:100%">
+                      <tr>
+                        <td><b>TITEL</b></td>
+                        <td>Roadtrip</td>
+                      </tr>
+                      <tr>
+                        <td><b>JAHR</b></td>
+                        <td>2018</td>
+                      </tr>
+                      <tr>
+                        <td><b>BETREUT VON</b></td>
+                        <td>Juliane Hohlbaum,<br>
+                            Anton Stuckardt</td>
+                      </tr>
+                      <tr>
+                        <td><b>MEDIUM</b></td>
+                        <td>Plakat</td>
+                      </tr>
+                      <tr>
+                        <td><b>FORMAT</b></td>
+                        <td>DIN A2</td>
+                      </tr>
+                      <tr>
+                        <td><b>PAPIER</b></td>
+                        <td>Zeitungspapier</td>
+                      </tr>
+                      <tr>
+                        <td><b>DRUCK</b></td>
+                        <td>HP Plotter, <br>
+                            Plotterraum Hochschule für Gestaltung Karlsruhe</td>
+                      </tr> 
+                    </table>
+                </div>
             </div>
         </div> 
 

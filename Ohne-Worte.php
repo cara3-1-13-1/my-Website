@@ -14,18 +14,16 @@
 <div class="content">    
     <?php include('header.php'); ?>
     <div style="width:100vw; height:100px"></div>
+    
+    <div style="height:30vh" class="w3-center">
+          <img src="Material/0OhneWorte/Titel.png" style="height:30vh">
+    </div>
+    
+    <div style="width:100vw; height:100px"></div>
         <!-- Packery -->
         <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
             <div class="grid">
-
-                <div class="grid-item">
-                </div>
-                 <div class="grid-item grid-item--width2">
-                      <img src="Material/0OhneWorte/Titel.png" style="width:100%; height:100%" class="image">
-                </div>
-                <div class="grid-item">
-                </div>
-                <div class="grid-item">
+                <div class="grid-item grid-item--width2">
                     <h4>Das Konzept für die fiktive Ausstellung „Ohne Worte“ entstand im Rahmen eines freiwilligen Praktikums im Sommer 2015 bei Milla und Partner in Stuttgart.</h4>
                 </div>
                 <div class="grid-item grid-item--width2">
@@ -77,7 +75,31 @@
                 <div class="grid-item">
                     <h4>Als Abschluss des Projekts entstand ein DIN A0 Plakat, das das Konzept präsentiert.</h4>
                 </div>
-
+                <div class="grid-item grid-item--width2 grid-item--height2">
+                    <h4><b>Technische Daten</b></h4>
+                    <table style="width:100%">
+                      <tr>
+                        <td><b>TITEL</b></td>
+                        <td>Ohne Worte</td>
+                      </tr>
+                      <tr>
+                        <td><b>JAHR</b></td>
+                        <td>2015</td>
+                      </tr>
+                      <tr>
+                        <td><b>BETREUT VON</b></td>
+                        <td>Tobias Kollmann</td>
+                      </tr>
+                      <tr>
+                        <td><b>MEDIUM</b></td>
+                        <td>Plakat</td>
+                      </tr>
+                      <tr>
+                        <td><b>FORMAT</b></td>
+                        <td>DIN A0</td>
+                      </tr> 
+                    </table>
+                </div>
             </div>
         </div> 
 
