@@ -10,8 +10,11 @@
     </head>
 <body>
      <footer>
-            <p><b>Nice, that you made it to the end!</b></p>
-            <p><b>Now let's have a coffee.</b></p>
+         <div style="width:100vw; height:100px"></div>
+         <h4>What about some type?<br></h4>
+         <a href="Coffea.php" class="no-underscore"><h4 class="w3-hover-text-white">Take a look!</h4></a>
+         <div style="width:100vw; height:100px"></div>
         </footer>
+    
   </body>
 </html>
