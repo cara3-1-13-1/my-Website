@@ -14,8 +14,9 @@
             <header>
                 <div class="w3-bar">
                   <a href="index.php" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white"><h1><b>CARA KOLLMANN</b></h1></a>
-                  <a href="Kontakt.php" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white w3-right"><h1><b>KONTAKT</b></h1></a>
+                  <a href="mailto:hello@carakollmann.de?Subject=Käffchen?" target="_top" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white w3-right"><h1><b>KONTAKT</b></h1></a>
                   <a href="About.php" class="w3-bar-item w3-button w3-hover-none w3-opacity w3-hover-text-white w3-right"><h1><b>ABOUT</b></h1></a>
+                    
                 </div>
             </header> 
          </div>
