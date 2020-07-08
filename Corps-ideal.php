@@ -14,13 +14,22 @@
 <div class="content">    
     <?php include('header.php'); ?>
     <div style="width:100vw; height:100px"></div>
+    <div style="height:30vh" class="w3-center">
+          <img src="Material/2Roadtrip/Titel.png" style="height:30vh">
+    </div>
+    <div style="width:100vw; height:100px"></div>
+    
         <!-- Packery -->
         <div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 10 }'>    
             <div class="grid">
 
                 <div class="grid-item grid-item--width2 grid-item--height2">
-                      <img src="Material/2Roadtrip/IMG_5251.jpg" style="width:100%; height:100%" class="image">
+                      <video style="margin: auto" width="100%" controls poster="Material/3Corps-Ideal/Corps-Ideal-Teaser.png">
+                          <source src="Material/3Corps-Ideal/CorpsIdeal.m4v" type="video/mp4">
+                          <source src="Material/3Corps-Ideal/CORPSIDEAL.mov" type="video/mov">
+                      </video>
                 </div>
+                
                 <div class="grid-item grid-item--height2">
                     <h4>Diese Plakatserie entstand als Dokumentation einer Exkursionsreihe im zweiten Semester mit Juliane Hohlbaum und Anton Stuckardt. Wir besuchten Agenturen und Druckereien in Frankfurt, Straßburg, Karlsruhe und Stuttgart.</h4>
                 </div>    
