@@ -30,7 +30,7 @@ h4 {
 h5 {
   font-family:"KronaOne", sans-serif;
   font-size: 12px !important;
-  margin: -5px 0;
+  margin: -5px 50px;
   opacity: 0.7;
   line-height: 20px;
   color: black;
@@ -38,9 +38,9 @@ h5 {
 h6 {
   font-family:"KronaOne", sans-serif;
   font-size: 9px !important;
-  margin: -5px 0;
+  margin: -5px 50px;
   opacity: 0.7;
-  line-height: 20px;
+  line-height: 12px;
   color: black;
 }
 body {background-color: coral}
